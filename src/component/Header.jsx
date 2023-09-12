@@ -53,7 +53,7 @@ export const Header = () => {
       </ul>
       {/* responsive nav for mobile  */}
       {open && (
-        <div className="absolute top-[30%] left-[50%] -translate-x-1/2 w-[90%] bg-white p-6 ">
+        <div className="absolute top-[30%] left-[50%] -translate-x-1/2 w-[90%] bg-white p-6 z-50">
           <div className="flex items-center justify-between">
             <Link to="/">
               <span className=" font-bold text-2xl tracking-wide">
@@ -65,7 +65,7 @@ export const Header = () => {
               onClick={() => setOpen(false)}
             ></XMarkIcon>
           </div>
-          <ul className="flex flex-col gap-3 text-[18px] mt-8">
+          <ul className="flex flex-col gap-3 text-[18px] mt-8 ">
             <li>
               <NavLink
                 to="/"
