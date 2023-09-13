@@ -6,15 +6,15 @@ export const SingleBook = () => {
   const [fold, setFold] = useState(true);
   return (
     // single book container
-    <div className="w-auto mx-7  sm:w-3/4 sm:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2 border-2 p-5 my-10 lg:justify-items-center lg:items-center">
+    <div className="w-auto mx-7  sm:w-[80%] sm:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2 border-2 p-5 my-10 ">
       {/* book image */}
       <img
         src={singleBook.image}
         alt="book-image"
-        className="place-self-center w-full  lg:h-full"
+        className="place-self-center w-full lg:h-full"
       />
       {/* book details */}
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 lg:pt-16">
         <span className="badge">BRAND NEW</span>
         <h2 className="text-3xl font-bold tracking-tighter">
           {singleBook.title}
