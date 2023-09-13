@@ -10,7 +10,7 @@ export const Home = () => {
     <div className=" w-auto mx-7 py-16 sm:w-3/4 sm:mx-auto flex flex-col lg:flex-row justify-between gap-14 lg:gap-5 items-center">
       {/* left side */}
       <div className="lg:w-1/2 w-full flex flex-col gap-7">
-        <span className="bg-yellow-400 text-gray-700 font-medium text-sm uppercase px-4 rounded-xl w-max">
+        <span className="badge">
           On Sale!
         </span>
         <h1 className="xl:text-4xl text-3xl font-sans font-bold">
