@@ -10,7 +10,7 @@ export const Header = () => {
   //  toggle nav bar
   const [open, setOpen] = useState(false);
   return (
-    <div className="bg-gray-100 w-auto  px-7 py-5 flex justify-between items-center sm:w-3/4 sm:mx-auto relative">
+    <div className="bg-gray-100 w-auto  px-7 py-5 flex justify-between items-center sm:w-[80%] sm:mx-auto relative">
       <div>
         <Link to="/" className="flex items-center">
           <BoltIcon className="w-7 h-7 text-blue-500"></BoltIcon>

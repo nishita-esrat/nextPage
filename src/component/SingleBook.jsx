@@ -6,7 +6,7 @@ export const SingleBook = () => {
   const [fold, setFold] = useState(true);
   return (
     // single book container
-    <div className="w-auto mx-7  sm:w-[80%] sm:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2 border-2 p-5 my-10 ">
+    <div className="w-auto mx-7  sm:w-[80%] sm:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-2 border-2 p-4 my-10 ">
       {/* book image */}
       <img
         src={singleBook.image}
@@ -49,7 +49,7 @@ export const SingleBook = () => {
           </p>
         )}
         {/* buttom area */}
-        <div className="flex items-center gap-5 ">
+        <div className="flex items-center gap-5">
           <button className="btn">Buy Now</button>
           <p className="font-bold">price:{singleBook.price}</p>
         </div>
@@ -57,3 +57,4 @@ export const SingleBook = () => {
     </div>
   );
 };
+
